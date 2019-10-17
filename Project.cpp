@@ -1,6 +1,6 @@
-#include <iostream>
+#include <iostream>  //libraries
 #include <string>
-#include <fstream>
+#include <fstream> 
 #include <sstream>
 #include <ctime>
 
@@ -613,7 +613,7 @@ class all  //this function will generate current date
 //MAIN RUNS HERE//
 int main()
 {
-	int x;
+	int x; //integer type variable
 	all obj;
 	obj.load();
 	cout<<"___WELCOME TO OUR LIBRARY MANAGEMENT SYSTEM___"<<endl<<endl;
