@@ -1,8 +1,8 @@
-#include <iostream>
-#include <string>
-#include <fstream>
-#include <sstream>
-#include <ctime>
+#include <iostream>//input /output statements
+#include <string>//string library
+#include <fstream>//file handling
+#include <sstream>//string management
+#include <ctime>//importing time
 
 using namespace std;
 struct record //attributes to record books
@@ -180,7 +180,7 @@ class all  //this function will generate current date
 			}
 			if(t!=0)
 			{
-				cout<<"WRONG USERNAME OR PASSWORD"<<endl<<endl<<"1. ENTER AGAIN"<<endl<<"... BACK TO MAIN MENU . ."<<endl;
+				cout<<"WRONG USERNAME OR PASSWORD"<<endl<<endl<<"1. ENTER AGAIN"<<endl<<"... BACK TO MAIN MENU . ."<<endl<<endl;
 				char c;
 				cin>>c;
 				system("cls");
@@ -250,7 +250,7 @@ class all  //this function will generate current date
 				authors=book[i].author;
 				ids=book[i].id;
 				copies=book[i].copy;
-				file<<names<<","<<authors<<","<<ids<<","<<copies<<endl;
+				file<<names<<","<<authors<<","<<ids<<","<<copies<<endl<<endl;
 				i++;
 			}
 			string stud,books,dates;
@@ -262,7 +262,7 @@ class all  //this function will generate current date
 				stud=student[j].stu;
 				books=student[j].boo;
 				dates=student[j].date;
-				students<<stud<<","<<books<<","<<dates<<endl;
+				students<<stud<<","<<books<<","<<dates<<endl<<endl;
 				j++;
 			}
 			students.close();
