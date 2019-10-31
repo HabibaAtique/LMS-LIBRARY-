@@ -7,16 +7,16 @@
 using namespace std;
 struct record //attributes to record books
 {
-	string	name;
-	string author;
-	string 	id;
-	int copy;
+	string	name;//name
+	string author;//author
+	string 	id;//id
+	int copy;//copy
 };
 struct issues //attributes of issued books
 {
-	string stu;
-	string boo;
-	string date;
+	string stu;//student
+	string boo;//book
+	string date;//date
 };
 class all  //this function will generate current date
 {
