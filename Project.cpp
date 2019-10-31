@@ -28,15 +28,15 @@ class all  //this function will generate current date
 		{
 			a=0;
 			b=0;
-			time_t t= time(NULL);
-			tm* now = localtime(&t);
+			time_t t= time(NULL);//time
+			tm* now = localtime(&t);//local time
 			m=now->tm_mday;
 			n=(now->tm_mon + 1) ;
 			o=(now->tm_year + 1900);
 		}
 		void menu() //GUI i.e main menu
 		{
-			cout<<"1. RECEPTION MENU"<<endl<<endl<<"2. LIBRARIAN MENU"<<endl<<endl<<"3. EXIT"<<endl<<endl<<"CHOOSE OPTION . . ."<<endl;
+			cout<<"1. RECEPTION MENU"<<endl<<endl<<"2. LIBRARIAN MENU"<<endl<<endl<<"3. EXIT"<<endl<<endl<<"CHOOSE OPTION . . ."<<endl<<endl;
 			int u;
 			cin>>u;
 			system("cls");
@@ -76,7 +76,7 @@ class all  //this function will generate current date
 			if(w==1)
 			{
 				string x,y;
-				cout<<"ENTER NAME OF STUDENT: ";
+				cout<<"ENTER NAME OF STUDENT: ";//enter name
 				getline(cin >>ws,x);
 				cout<<"ENTER BOOK: ";
 				getline(cin >>ws,y);
@@ -92,7 +92,7 @@ class all  //this function will generate current date
 			}
 			if(w==4)
 			{
-				save();
+				save();//saving changes and updates
 				exit(0);
 			}
 			if(w<1 || w>4) //restriction to put numbers from 1 to 4
