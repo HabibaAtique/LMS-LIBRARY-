@@ -1,3 +1,4 @@
+//Edited by HabibaAtique000 on 6th OCT,2020
 #include <iostream>//input /output statements
 #include <string>//string library
 #include <fstream>//file handling
@@ -103,7 +104,7 @@ class all  //this function will generate current date
 			
 			login_rec();
 		}
-		void login_lib()
+		void login_lib()//login librarian
 		{
 			system("cls");
 			string user,pass;
@@ -389,7 +390,7 @@ class all  //this function will generate current date
 			}
 			a--;
 		}
-		void search() //to search book by name
+		void search() //function searches for the required book
 		{
 			int y;
 			cout<<"SEARCH BOOK BY: "<<endl<<"1. NAME"<<endl<<"2. AUTHOR"<<endl;
@@ -451,7 +452,7 @@ class all  //this function will generate current date
 				}
 			}
 		}
-		void issue(string x,string y)  //to issue  book
+		void issue(string x,string y)  //function issues books
 		{
 			string z;
 			string q,w,e;
@@ -515,7 +516,7 @@ class all  //this function will generate current date
 				
 			}
 		}
-		void returned()
+		void returned() // if the book is returned
 		{
 			string x;
 			cout<<"BOOK NAME: ";
@@ -610,16 +611,19 @@ class all  //this function will generate current date
 			}
 		}
 };
+
 //MAIN RUNS HERE//
+
 int main()
 {
 	int x;
 	all obj;
 	obj.load();
-	cout<<"___WELCOME TO OUR LIBRARY MANAGEMENT SYSTEM___"<<endl<<endl;
+	cout<<"___WELCOME TO OUR LIBRARY MANAGEMENT SYSTEM___"<<endl<<endl; //This is the interface
 	obj.menu();
 	system("cls");
 	obj.save();
 	return 0;
 }
+
 //THE END//
