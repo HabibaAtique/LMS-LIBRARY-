@@ -1,4 +1,4 @@
-//Edited by HabibaAtique000 on 6th OCT,2020
+//Edited by HabibaAtique000 on 6th OCT,(again)
 #include <iostream>//input /output statements
 #include <string>//string library
 #include <fstream>//file handling
@@ -69,7 +69,7 @@ class all  //this function will generate current date
 			}
 			menu();
 		}
-		void login_rec() //reception  menu
+		void login_rec() //reception  menu opens
 		{
 			cout<<"___RECEPTION LOGIN___"<<endl<<endl<<"1. ISSUE BOOK"<<endl<<endl<<"2. DIPOSIT BOOK"<<endl<<endl<<"3. BACK TO MAIN MENU"<<endl<<endl<<"4. EXIT"<<endl<<endl<<"CHOOSE OPTION . . .";
 			int w;
@@ -104,7 +104,7 @@ class all  //this function will generate current date
 			
 			login_rec();
 		}
-		void login_lib()//login librarian
+		void login_lib()//login librarian account
 		{
 			system("cls");
 			string user,pass;
@@ -182,9 +182,13 @@ class all  //this function will generate current date
 			if(t!=0)
 			{
 				cout<<"WRONG USERNAME OR PASSWORD"<<endl<<endl<<"1. ENTER AGAIN"<<endl<<"... BACK TO MAIN MENU . ."<<endl<<endl;
+				
 				char c;
+				
 				cin>>c;
+				
 				system("cls");
+				
 				if(c=='1')
 				{
 					login_lib();
@@ -195,7 +199,7 @@ class all  //this function will generate current date
 				}
 			}
 		}
-		void load()  //to get information about book from file (storing strings in varibles(to array))
+		void load()  //to get information about book from file (storing strings in varibles(to array))/loading info
 		{
 			string names,authors,ids,copies;
 			string line,word;
