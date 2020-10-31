@@ -1,4 +1,33 @@
 # LIBRARY MANAGEMENT SYSTEM
+PROJECT AIMS AND OBJECTIVES
+The project aims and objectives that will be achieved after completion of this project arediscussed in this subchapter. The aims and objectives are as follows:
+
+ 
+Online book issue
+ 
+
+ 
+Request column for librarian for providing new books
+ 
+
+ 
+A separate column for digital library
+ 
+
+ 
+Student login page where student can find books issued by him/her and date of return.
+ 
+
+ 
+A search column to search availability of books
+
+ 
+A teacher login page where teacher can add any events being organized in the collegeand important suggestions regarding books.
+ 
+
+ 
+Online notice board about the workshop.
+
 Here are the main classes of our Library Management System:
 
 Library: The central part of the organization for which this software has been designed. It has attributes like ‘Name’ to distinguish it from any other libraries and ‘Address’ to describe its location.
