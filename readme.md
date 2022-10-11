@@ -1,3 +1,8 @@
+
+#edited by HabibaAtique000
+#edited on 10/11/2022
+#next editing expected InshaAllah 10/2023
+#My pull request (new)
 # LIBRARY MANAGEMENT SYSTEM
 PROJECT AIMS AND OBJECTIVES
 The project aims and objectives that will be achieved after completion of this project arediscussed in this subchapter. The aims and objectives are as follows:
@@ -17,30 +22,22 @@ A separate column for digital library
  
 Student login page where student can find books issued by him/her and date of return.
  
-
- 
 A search column to search availability of books
-
- 
+
 A teacher login page where teacher can add any events being organized in the collegeand important suggestions regarding books.
- 
-
+
 SYSTEM OBJECTIVES
  
-
  
 Improvement in control and performanceThe system is developed to cope up with the current issues and problems of library.The system can add user, validate user and is also bug free.
-
- 
+
 Save costAfter computerized system is implemented less human force will be required tomaintain the library thus reducing the overall cost.
-
- 
+
 Save timeLibrarian is able to search record by using few clicks of mouse and few searchkeywords thus saving his valuable time.
-
+
  
 Option of online Notice boardLibrarian will be able to provide a detailed description of workshops going in thecollege as well as in nearby colleges
-
- 
+
 Lecture NotesTeacher have a facility to upload lectures notes in a pdf file having size not morethan 10mb
  
 Online notice board about the workshop.
