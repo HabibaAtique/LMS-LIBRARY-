@@ -1,3 +1,9 @@
 jacksparrow,willium hack,IT,6
 once that,advert hennry,IT,6
 hello world,nick abraham,LT,6
+abcd,new bee,IT,6
+efgh that,tyler fernandez,IT,6
+ijkl world,albert instein,LT,6
+the book,henry man,IT,8
+new t,shahrukh khan,IT,7
+new world,john abraham,LT,9
