@@ -1,3 +1,9 @@
 student,jacksparrow,12/1/2019
 student,once,1/3/2019
 new stu,hello,2/2/2019
+student1,abcdefgh,12/1/2019
+student2,once upon a time,1/3/2019
+student 3 stu,Mr. Chips,2/2/2019
+student4,we fought,12/1/2019
+student5,Cinderella ,1/3/2019
+new stu6,hello kitty,2/2/2019
